@@ -7,8 +7,6 @@ body{
     margin: auto;
 }
 
-
-/**header**/
 header{
     width: 1260px;
     height: 135px;
@@ -65,7 +63,7 @@ header{
 
 .A_nav_l_i{
     width: 165px;
-    height: 34px;
+    height: 36px;
     margin: 0px;
     margin-right: 23px;
     padding: 0px;
@@ -73,8 +71,8 @@ header{
 }
 .A_nav_l_p_textB{
     height: 36px;
-    font-size: 24px;
     width: 57px;
+    font-size: 24px;
     margin: 0px;
     color: #FFF3D6;
     background-color: #130167;

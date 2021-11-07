@@ -6,63 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div class="contain">
         <header>
             <div class="H_nav">
                 <div class="H_nav_btn_menu">
-                   
+                    <img src="img/H_btn_menu.png" alt="Menu">
                 </div>
                 <div class="H_nav_btn_logo">
-                    <img src="img/H_logo" alt="Logo">
+                    <a href="index.html">
+                        <img src="img/H_logo" alt="Logo">
+                    </a>
                 </div>
                 <div class="H_nav_btn_search">
                     <img src="img/H_btn_search.png" alt="Search">
                 </div> 
             </div>
-            <div class="H_banner">
-                <img src="img/H_banner.png" alt="Banner">
-            </div>
-            <input type="checkbox" name="" id="sideMenu-active" />
-
-            <div class="sideMenu">
-                <div class="sidetitle">
-                    <img src="img/sidetitle_img.png" class="sidetitle_img">
-                    <p class="sidetitle_p">珊瑚</p>	
-                </div>
-                <nav class="sidemenu_all">
-                    <a href="login.html"><li class="sidemenu_text">登入</li>
-                    </a>               
-                    <li class="sidemenu_text">註冊</li>
-                    <li class="sidemenu_text">我的書櫃</li>
-                    <li class="sidemenu_text">我的賣場</li>
-                    <li class="sidemenu_text">購買紀錄</li>
-                    <li class="sidemenu_text">換書紀錄</li>
-                    <li class="sidemenu_text">我的評論</li>
-                    <li class="sidemenu_text">心得交流</li>
-                    <li class="sidemenu_text">舉辦活動</li>
-                </nav>
-                <label for="sideMenu-active" class="sidemenu_lable">
-                    <img src="img/H_btn_menu.png" alt="Menu">
-                </label>
-            </div>
         </header>
-
         <article>
-            <div class="A_contain">
-                <div class="A_imgA">
-                    <a href="sele.html">
-                    <img src="img/A_imga.png" alt="買賣區">
-                    </a>
-                </div>
-                <div class="A_imgB">
-                    <a href="change.html">
-                        <img src="img/A_imgb.png" alt="交易區">
-                    </a>                   
-                </div>                
+            <div class="A_bkimg">
+
             </div>
+            <div class="A_contain">
+                <div class="A_text">
+                    <p class="A_texta">循書</p>
+                    <p class="A_textb">建立屬於您的帳號</p>
+                </div>
+                <div class="A_login">
+                    <div class="A_login_big1">
+                        <input value="帳號" class="A_login_account">
+                    </div> 
+                    <div class="A_login_big2">
+                        <input value="密碼" class="A_login_password">
+                    </div>
+                    <div class="A_login_big3">
+                        <button type="button" class="A_login_login">登入</button>
+                    </div>
+                    <div class="A_login_text">
+                        <p class="A_login_text_a">忘記密碼?</p>
+                        <p class="A_login_text_b">註冊帳號</p>
+                    </div>
+                    <div class="A_login_line">
+                        <hr noshade="" size="1px">
+                        <p class="A_login_line_fast">快速登入</p>
+                        <hr noshade="" size="1px">
+                    </div>
+                    <div class="A_login_icon">
+                        <div class="A_login_icon_line">
+                            <img src="img/A_login_icon_line.png" alt="Facebook">
+                        </div>
+                        <div class="A_login_icon_facebook">
+                            <img src="img/A_login_icon_facebook.png" alt="Facebook">
+                        </div>
+                        <div class="A_login_icon_twitter">
+                            <img src="img/A_login_icon_twitter.png" alt="Facebook">
+                        </div>
+                        <div class="A_login_icon_google">
+                            <img src="img/A_login_icon_google.png" alt="google">
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
         </article>
 
         <footer>
@@ -100,19 +107,13 @@
                     <p class="F_text_d">10671 臺北市大安區和平東路2段134號</p>
                     <div class="F_btn">
                         <div class="F_btn_fb">
-                            <a href="https://www.facebook.com/">
-                                <img src="img/F_btn_fb.png" alt="Facebook">
-                            </a>
+                            <img src="img/F_btn_fb.png" alt="Facebook">
                         </div>
                         <div class="F_btn_tw">
-                            <a href="https://twitter.com/?lang=zh-tw">
-                                <img src="img/F_btn_tw.png" alt="Twitter">
-                            </a>                       
+                            <img src="img/F_btn_tw.png" alt="Twitter">
                         </div>
                         <div class="F_btn_ig">
-                            <a href="https://www.instagram.com/">
-                                <img src="img/F_btn_ig.png" alt="Instagram">
-                            </a>                    
+                            <img src="img/F_btn_ig.png" alt="Instagram">
                         </div>
                     </div>
                 </div>    
